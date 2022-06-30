@@ -21,6 +21,21 @@
         background-color: #1b1b1a;
         color: #fefeff;
       }
+      #email, #submit {
+        position: fixed;
+        top: 10px;
+        padding: 10px;
+      }
+      #email {
+        left: 5px;
+        background: #fefeff;
+        z-index: 1;
+      }
+      #submit {
+        left: 70px;
+        background: #fdc200:
+          z-index: 9;
+      }
     </style>
   </head>
 <body>
@@ -40,9 +55,13 @@
         method="POST"
         enctype="text/plain"
         name="Subscribe">
+    <div id-"email">
           Email:<br>
           <input type="email" name="Contact-Name"><br><br>
+    </div>
+    <div id="submit">
     <button type="submit" Value="Submit">Subscibe</button>
+    </div>
   </form>
   </div>
   <div class="div-footer">
