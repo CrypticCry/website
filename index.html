@@ -34,5 +34,11 @@
     </textarea><br><br>
     <button type="submit" Value="Submit">Subscibe</button>
   </form>
+  <?php
+if($_POST["Message"]) {
+mail("NATBBTB@protonmail.com", "Add to Subscription List",
+$_POST["Email sent"]. "From: NATBBTB@protonmail.com");
+}
+?>
 </body>
 </html>
