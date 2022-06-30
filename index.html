@@ -25,20 +25,11 @@
   
   <form action:"mailto:NATBBTB@protonmail.com"
         method="POST"
-        enctype="multipart/formdata"
+        enctype="text/plain"
         name="Subscribe">
           Email:<br>
           <input type="email" name="Contact-Name"><br><br>
-          Message:<br>
-    <textarea name="Contact Message" rows="6" cols="20">
-    </textarea><br><br>
     <button type="submit" Value="Submit">Subscibe</button>
   </form>
-  <?php
-if($_POST["Message"]) {
-mail("NATBBTB@protonmail.com", "Add to Subscription List",
-$_POST["Email sent"]. "From: NATBBTB@protonmail.com");
-}
-?>
 </body>
 </html>
