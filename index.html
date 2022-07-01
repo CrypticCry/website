@@ -52,7 +52,21 @@
   <center><h1>About Us</h1></center>
   <p>We are a group crypto entrepreneurs that have a goal of streamlining innovation and pushing eachother to do our best. Without the support of the community, this would not be possible, so we thank each and every one of you.</p>
   <div background-color="#7f01fe" style="height: 90px">
-          <input id class="id-subscribe" placeholder="Email" type="email" name="Contact-Name"><button style="background:#ffcc0d" type="submit" Value="Submit">Subscribe</button>
+          <form method="post" name="subscribe-form" action="form-to-email.php"> <id class="id-subscribe" placeholder="Email" type="email" name="email-subscribe"><input style="background:#ffcc0d" type="submit" Value="Subscribe"">
+            <?php
+	$email_from = 'NATBBTB@protonmail.com';
+
+	$email_subject = "New Subscriber";
+
+	$email_body = "A new member has joined the subscription list!".
+?>
+            <?php
+
+  $to = "NATBBTB@protonmail.com";
+
+  mail($to,$email_subject,$email_body);
+
+ ?>
   </div>
   <footer class="div-footer" style="height: 332px">
     <a href="https://pomley.com/account/register">Your Account</a> <a href="https://pomley.com">Education</a> <a href="https://pomley.com">Pomley Products</a>
