@@ -21,6 +21,14 @@
         color: #fefeff;
         text-decoration: none;
       }
+	    .center {
+position: absolute;
+left: 50%;
+top: 50%;
+transform: translate(-50%, -50%);
+border: 5px solid #FFFF00;
+padding: 10px;
+}
       a:link {
   color:white;
 }
@@ -40,7 +48,8 @@ a:active{
   </head>
 <body style="margin: 0 0 0 0">
   <header class="div-header" style="height: 120px">
-      <div style="float: left; width: 33%;"><img src="assets/logo-header.png" style="height: 23px; width: 1px; margin-left: 117px; margin-bottom: 49px;"></div><div style="float: left; width: 33%;"><input style="margin-bottom: 49px;" placeholder="Search our product" type="text" name="search-product"><button style="margin-bottom: 49px;" type="search" value="Search">Search</button></div><div style="float: left; width: 33%;"><p style="margin-bottom: 49px;">Checkout></div>
+	  <div>
+      <div class="center" style="float: left; width: 33%;"><img src="assets/logo-header.png" style="height: 23px; width: 1px;"></div><div class="center" style="float: left; width: 33%;"><input placeholder="Search our product" type="text" name="search-product"><button type="search" value="Search">Search</button></div><div class="center" style="float: left; width: 33%;"><p>Checkout></div>
 	  </div>
   </header>
   <div class="div-header2" style="height: 35px"></div>
