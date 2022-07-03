@@ -1,5 +1,6 @@
 <!doctype html>
 <html>
+<head>
   <title><!--Add title of web tab-->Blog</title>
   <link rel="icon" href="assets/logo.png"><!--change .png to logo to appear in web tab-->
 <style>
@@ -15,11 +16,16 @@ font-family: Arial;
 font-size: 16px;
 font-weight: bold;
 }
-h3 {
-color: ##466298;
+list {
+color: #darkgrey;
 font-family: Arial;
 font-size: 16.67px;
 font-weight: bold;
+}
+li {
+color: grey;
+font-size: 16.67px;
+font-family: Arial;
 }
   p {
 color: grey;
@@ -42,16 +48,16 @@ a:active{
   color:white;
 }
   </style>
-  <body>
+  </head>
   
-<div style="margin: 0px 0px 0px 0px">
+<div style="margin: 0px">
 
-<header style="background-color: #0e1b4d; height: 194px; width: auto;">
+<header style="background-color: #0e1b4d; height: 194px; width: 100%; margin: auto;">
 <center><img src="assets/logo-header.png" style="height: 136px; width: 200px; margin-top: 30px"></center><!--change .png to logo to appear in header-->
 </header>
 
 <body style="background-color: #eff0f5; margin: auto; width: 50%;">
-<head><h1> <!--enter title here-->What is the Pomley Marketplace?</h1></head>
+<h1> <!--enter title here-->What is the Pomley Marketplace?</h1>
 
 <date style="color: #8290c0; font-size: 10.67px;"><!--Add a date-->July 2, 2022</date>
 
@@ -71,14 +77,15 @@ a:active{
        The following are samples of components you can explore on the Pomley marketplace:
        
        <ul><!--create an unordered list; use "ol" for a numbered list-->
-       <li><!--use "li" to indicate an element of the list--><h3>Pomley Web:</h3> Access the Pomley marketplace on your personal computer via your favorite browsers. Create a profile connected to a web-three wallet or use a traditional email and password.</li><br><!--"br" creates a line break horizontally-->
-       <li><h3>Pomley App:</h3>Download the Pomley marketplace on your mobile device for fast access. Generate a user profile by connecting a web-three wallet or using the conventional email and password option.</li>
+       <li><!--use "li" to indicate an element of the list--><list>Pomley Web:</list> Access the Pomley marketplace on your personal computer via your favorite browsers. Create a profile connected to a web-three wallet or use a traditional email and password.</li><br><!--"br" creates a line break horizontally-->
+       <li><list>Pomley App:</list>Download the Pomley marketplace on your mobile device for fast access. Generate a user profile by connecting a web-three wallet or using the conventional email and password option.</li>
+       </ul>
 
 <div style="color: #0e1b73; font-size: 30px; height: 113px; width: auto;">
-<center style="margin-top: 56px;"><a href="mirairform.com" style="color: #0e1b73; text-decoration: none; font-size: 18.67px">&#8592; Back to blog</a></center>
+<center style="margin-top: 56px;"><a href="https://miraireform.com" style="color: #0e1b73; text-decoration: none; font-size: 18.67px">&#8592; Back to blog</a></center><!--Change href to homepage-->
 </div>
 
-<footer style="background-color: #0e1b4d; height: 755px; width: auto; margin: 0px;"><br><br><br>
+<footer style="background-color: #0e1b4d; height: 755px; width: 100%; margin: auto;"><br><br><br>
 <center style="color: #ffffff; font-size: 24px; font-weight: bold; font-family: arial;">Subscribe to our emails</center>
 <br>
 <center style="color: grey; font-size: 16.67px; font-family: arial;">Be the first to know about new collections and exclusive offers.</center>
@@ -94,8 +101,9 @@ a:active{
 <center><div style="float: left; width: 33%; color: white; font-size: 24;">Our mission<br><mission style="color: grey; font-size: 16.67px; font-family: arial; text-alight: justify/left;">Share contact information, store details, and brand content with your customers.</mission></div></center>
 </div>
 
+<div style="verticle-align: bottom; color: grey;">Copyright @2022 Mirai Whale</div><!--Chnage copyright name-->
+
 </footer>
 </body>
 </div>
-</body>
 </html>
